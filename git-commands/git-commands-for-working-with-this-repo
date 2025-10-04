@@ -1,0 +1,61 @@
+# 📘 Git Basics: Key Commands for Common Tasks
+
+This document explains essential Git tasks and their related commands.  
+Ideal for beginners and B1-level German learners (English version).
+
+---
+
+## 1️⃣ How Git Stores Data
+
+- `git init`  
+  Initializes a Git repository. Creates the hidden `.git` folder where Git stores data.
+
+- `git cat-file -p <hash>`  
+  Shows the content of a Git object (blob, tree, or commit).
+
+- `git log`  
+  Displays the history of commits to understand change tracking.
+
+---
+
+## 2️⃣ How to Create Repositories
+
+- `git init`  
+  Creates a new **local** Git repository in the current directory.
+
+- `git clone <url>`  
+  Copies (clones) a **remote** repository to your machine.
+
+---
+
+## 3️⃣ How to Make Commits
+
+- `git add <file>`  
+  Adds the file to the staging area, preparing it for commit.
+
+- `git commit -m "your message"`  
+  Saves the staged changes with a descriptive message.
+
+- `git status`  
+  Shows the current state of the working directory and staging area.
+
+---
+
+## 4️⃣ How to Compare Versions
+
+- `git diff`  
+  Shows changes between working directory and last commit.
+
+- `git diff <commit1> <commit2>`  
+  Compares the differences between two commits.
+
+- `git log`  
+  Displays the list of commits (to get commit hashes).
+
+- `git show <commit>`  
+  Shows details and changes of a specific commit.
+
+---
+
+✅ **Tip**: Use `git help <command>` to get more info about any Git command.
+
