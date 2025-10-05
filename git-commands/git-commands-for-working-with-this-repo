@@ -56,6 +56,24 @@ Ideal for beginners and B1-level German learners (English version).
   Shows details and changes of a specific commit.
 
 ---
+## 5️⃣ How to Work with Branches
+
+- `git diff main chatbot`  
+  🔍 Compares the state of the `main` and `chatbot` branches.
+
+- `git branch`  
+  📋 Lists all branches in the repository.
+
+- `git branch -m old_name new_name`  
+  ✏️ Renames a branch from `old_name` to `new_name`.
+
+- `git branch -d chatbot`  
+  🗑️ Deletes the `chatbot` branch, **if it has already been merged**.
+
+- `git branch -D chatbot`  
+  🧨 Force-deletes the `chatbot` branch, **even if it has not been merged**.
+
+---
 
 ✅ **Tip**: Use `git help <command>` to get more info about any Git command.
 
