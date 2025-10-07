@@ -6,3 +6,8 @@ Status: **v0.1 (initial)**
 ## File & snippet conventions
 - Each snippet file begins with a short header comment (tags, date, difficulty).
 - Use descriptive filenames (e.g., `tcp_echo_server.py`, `http_client_requests.py`).
+## How to use
+Each file is a standalone Python script. You can run any snippet like this:
+
+```bash
+python tcp_echo_server.py
