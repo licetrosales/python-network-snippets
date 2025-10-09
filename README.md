@@ -11,3 +11,7 @@ Each file is a standalone Python script. You can run any snippet like this:
 
 ```bash
 python tcp_echo_server.py
+
+## Requirements
+
+Most snippets use only Python's standard library.
