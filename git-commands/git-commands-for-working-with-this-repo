@@ -74,6 +74,28 @@ Ideal for beginners and B1-level German learners (English version).
   🧨 Force-deletes the `chatbot` branch, **even if it has not been merged**.
 
 ---
+## 6️⃣ How to Synchronize with Remote Repositories
+
+```bash
+# 🔄 Fetching from a Remote
+git fetch origin
+# Retrieves branches and their commits from the remote named origin,
+# without merging them into your current branch.
+
+# 🔗 Merging Remote Changes
+git merge origin/<branch>
+# After fetching, you merge the changes into your local branch.
+# This integrates updates from the remote.
+
+# 🛠️ Pulling from a Remote
+git pull origin
+# Combines fetching and merging in a single step.
+# Retrieves remote changes and merges them into your current branch.
+
+# ⚠️ Handling Uncommitted Changes
+# Before pulling, Git checks for uncommitted local changes.
+# If any exist, Git will abort the pull and prompt you to commit or stash them first.
+
 
 ✅ **Tip**: Use `git help <command>` to get more info about any Git command.
 
