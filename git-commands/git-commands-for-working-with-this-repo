@@ -96,6 +96,18 @@ git pull origin
 # Before pulling, Git checks for uncommitted local changes.
 # If any exist, Git will abort the pull and prompt you to commit or stash them first.
 
+## 7️⃣ How to Push Changes to Remote Repositories
+
+Keeping your content synced between local and remote repos is essential for maintaining a ground truth for your project, enabling collaboration where everyone is building from the same core contents held in the remote.
+
+```bash
+# ✅ Push changes from your local branch to a remote
+git push remote local_branch
+
+# ▶️ Push into `remote` from `local_branch`
+# Example: push to the remote named "origin" from the "main" branch
+git push origin main
+
 
 ✅ **Tip**: Use `git help <command>` to get more info about any Git command.
 
