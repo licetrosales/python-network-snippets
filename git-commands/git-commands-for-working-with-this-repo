@@ -109,5 +109,9 @@ git push remote local_branch
 git push origin main
 
 
+## 8️⃣ Clone a repository from GitHub to your local machine
+git clone <repository_url>
+
+
 ✅ **Tip**: Use `git help <command>` to get more info about any Git command.
 
