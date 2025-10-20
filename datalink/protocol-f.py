@@ -22,9 +22,9 @@ git push -u origin dev
 Comparing changes in PRs is a critical step in collaborative development.  
 It allows the repository owner or reviewer to:
 
-- ✅ Check for merge conflicts  
-- 📝 Review proposed code changes  
-- ✏️ Edit or refine any suggested modifications  
+- Check for merge conflicts  
+- Review proposed code changes  
+- Edit or refine any suggested modifications  
 
 This ensures smooth integration and maintains codebase quality.
 
