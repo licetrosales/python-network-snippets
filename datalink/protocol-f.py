@@ -28,4 +28,4 @@ It allows the repository owner or reviewer to:
 
 This ensures smooth integration and maintains codebase quality.
 
-This step ensures code quality and maintains project stability during contributions.
+
