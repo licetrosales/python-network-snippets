@@ -22,3 +22,10 @@ ClassName = "OK"
 __hidden = "Strongly private"
 __init__ = "Special method"
 myVar = "Case sensitive"
+## 📝 Quotation in Python
+
+Python supports three types of quotation marks to define string literals:
+
+- **Single quotes**: `'Hello'`
+- **Double quotes**: `"Hello"`
+- **Triple quotes**: `'''Hello'''` or `"""Hello"""`
