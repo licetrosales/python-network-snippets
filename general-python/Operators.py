@@ -120,3 +120,16 @@ print ("3. Value number3:", number3)
 print ("4. Value number4:", number4)
 print ("5. Value number5:", number5)
 print ("6. Value number6:", number6)
+
+#Logical operators
+x = True
+y = False
+
+# and
+print ("x and y is", x and y)
+
+# or
+print ("x or y is", x or y)
+
+# not
+print ("Not x is", not x )
