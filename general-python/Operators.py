@@ -98,3 +98,25 @@ print("7: a **= x is", a)
 # Floor Division AND
 a //= x
 print("8: a //= x is", a)
+
+# Realtional operators
+
+# Equal to ==
+number1 = 100 == 50
+# Not equal to !=
+number2 = 100 != 50
+# Greater than >
+number3 = 100 > 50
+# Less than <
+number4 = 100 < 50
+# Equal to or greater than >=
+number5 = 100 >= 50
+# Equal to or less than <=
+number6 = 100 <= 50
+
+print ("1. Value number1:", number1)
+print ("2. Value number2:", number2)
+print ("3. Value number3:", number3)
+print ("4. Value number4:", number4)
+print ("5. Value number5:", number5)
+print ("6. Value number6:", number6)
