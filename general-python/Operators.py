@@ -132,4 +132,14 @@ print ("x and y is", x and y)
 print ("x or y is", x or y)
 
 # not
-print ("Not x is", not x )
+print ("Not x is", not x)
+
+# Membership operators 
+x = "Python Programming"
+y = {1:"h", 2:"m"}
+
+print ("y" in x)
+print ("o" not in x)
+
+print (1 in y)
+print ("a" in y)
