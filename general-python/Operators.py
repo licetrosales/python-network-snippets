@@ -143,3 +143,15 @@ print ("o" not in x)
 
 print (1 in y)
 print ("a" in y)
+
+# Identity operators (is & is not) 
+a = 10
+a1 = 10
+b = "holla"
+b1 = "Holla"
+c =[1,2,3]
+c1 =[1,2,3]
+
+print (a is a1)
+print (b is b1)
+print (c is not c1)
