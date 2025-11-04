@@ -21,3 +21,8 @@ print ("string1 * 3 + string3 = ", string1 * 3 + string3)
 print ("string1 + string2 = ", string1 + string2)
 print ("string1, string2 = ", string1, string2)
 print ("string1, string2 + string3 =", string1, string2 + string3)
+
+# String escape sequence
+print("I am sorry,\" he said, \"the 'Transformers' toys are out of stock\"." )
+print('"I am sorry, " he said, "the \'Transformers\' toys are out of stock".')
+print(""""I am sorry," he said, "the 'Transformers' toys are out of stock". """)
