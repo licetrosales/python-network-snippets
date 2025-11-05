@@ -1,5 +1,6 @@
-# Slicing: you can slice the characters in a string using a square bracket ([]) and even specify a range of characters using colons ([:]).
+# Strings and numbers
 
+# Slicing: you can slice the characters in a string using a square bracket ([]) and even specify a range of characters using colons ([:]).
 name = input("Enter a word longer than 5 letters: ")
 print (name[0], "is the first indexed character.")
 print (name[1], "is the second indexed character.")
