@@ -113,4 +113,3 @@ Manual anchor links:
 
 ---
 
-> 💡 **Tip**: Markdown files usually end in `.md` and are ideal for GitHub READMEs.
