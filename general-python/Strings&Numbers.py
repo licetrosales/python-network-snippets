@@ -27,3 +27,14 @@ print ("string1, string2 + string3 =", string1, string2 + string3)
 print("I am sorry,\" he said, \"the 'Transformers' toys are out of stock\"." )
 print('"I am sorry, " he said, "the \'Transformers\' toys are out of stock".')
 print(""""I am sorry," he said, "the 'Transformers' toys are out of stock". """)
+
+# String methods
+mytext = "Happy new year World!"
+
+print ("mytext.upper() = ", mytext.upper())
+print ("mytext.lower() = ", mytext.lower())
+print ("mytext.swapcase() = ", mytext.swapcase())
+print ("mytext.capitalize() = ", mytext.capitalize())
+print ("mytext.title() = ", mytext.title())
+print ("mytext.strip() = ", mytext.strip())
+print ("mytext.split() = ", mytext.split())
