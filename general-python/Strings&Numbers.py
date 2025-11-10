@@ -38,3 +38,9 @@ print ("mytext.capitalize() = ", mytext.capitalize())
 print ("mytext.title() = ", mytext.title())
 print ("mytext.strip() = ", mytext.strip())
 print ("mytext.split() = ", mytext.split())
+
+# String formatting
+name ="Piro"
+score = 30
+
+print ("My name is %s and I scored %d percent!" %(name, score))
