@@ -44,3 +44,15 @@ name ="Piro"
 score = 30
 
 print ("My name is %s and I scored %d percent!" %(name, score))
+
+# Number coercion
+number1 =12
+number2 = 2.5
+string1 = "10"
+
+print (float(number1)) # number1 to float 
+print (int(number2)) # number2 to integer 
+print (int(string1) * number2) 
+YoB = int(input("Enter your year of birth as YYYY: ")) 
+age = 2025 - YoB
+print ("You are %d years old!" %age)
