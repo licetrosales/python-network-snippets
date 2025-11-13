@@ -11,3 +11,11 @@ print (list1[0:2])
 print (list1 [2:])
 print (tuple1[1:5])
 print (tuple2[0:-1])
+
+# Updating list objects
+list1 = ["March", "Five", 2015, 20.20, "Heaven"]
+print ("Old list1: ", list1)
+list1[0] = "November"
+list1[-1] = "Hell"
+list1.append("Computer")
+print ("New list1: ",list1)
