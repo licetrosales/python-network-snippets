@@ -19,3 +19,9 @@ list1[0] = "November"
 list1[-1] = "Hell"
 list1.append("Computer")
 print ("New list1: ",list1)
+
+# Deleting list objects
+print ("Old list1: ", list1)
+del list1[2]
+list1.remove("Five")
+print ("New list1: ",list1)
