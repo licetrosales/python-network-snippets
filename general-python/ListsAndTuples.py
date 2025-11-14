@@ -25,3 +25,11 @@ print ("Old list1: ", list1)
 del list1[2]
 list1.remove("Five")
 print ("New list1: ",list1)
+
+# Basic list and tuples operations
+print (len(list1))
+print (len(tuple1))
+list2 = ["Today", "rocket", -60]
+list3 = list1 + list2
+print (list3)
+print (list2*2)
