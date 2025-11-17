@@ -32,3 +32,10 @@ This repo includes essential **Python built-in functions** and **list methods** 
 
 > ⚠️ Note: Most list methods do **not** work on **tuples** or **strings**, as they are **immutable**.
 
+Use tuples when:
+
+1. **Heterogeneous Data**: Tuples are ideal for grouping different types of data together.
+2. **Faster Iteration**: Tuples are faster to iterate over due to their immutability.
+3. **Dictionary Keys**: Only immutable types like tuples can be used as keys in dictionaries.
+4. **Constant Data**: When data should not be modified, using a tuple helps enforce immutability.
+
