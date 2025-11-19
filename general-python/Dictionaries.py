@@ -12,3 +12,10 @@ print (myDict["name"])
 print (myDict["score"])
 print (myDict.get("score"))
 print (myDict.get("scoretest"))
+
+# Updating the dictionary
+print ("Old myDict: ", myDict)
+myDict["Grade"] = "B"
+del myDict["ID"]
+myDict["name"] = "Luz Paz"
+print ("New myDict: ", myDict)
