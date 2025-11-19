@@ -10,3 +10,5 @@ print (class_ranking)
 # Accessing elements
 print (myDict["name"])
 print (myDict["score"])
+print (myDict.get("score"))
+print (myDict.get("scoretest"))
