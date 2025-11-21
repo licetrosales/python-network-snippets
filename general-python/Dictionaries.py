@@ -20,7 +20,7 @@ del myDict["ID"]
 myDict["name"] = "Luz Paz"
 print ("New myDict: ", myDict)
 
-# Erase an element/ dictionary
+# Erase all elements in a dictionary
 print ("Original values of dict1: ", dict1)
 dict.clear(dict1)
 print ("Clearing all the dictionary entries oof dict1: ", dict1)
