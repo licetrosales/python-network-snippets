@@ -10,3 +10,7 @@ print ("Here are the cities I lived in: \n1. ", city1,  "\n2. ", city2, "\n3. ",
 print(city1)
 print(city2)
 print(city3)
+
+# Output using sep and end arguments
+print("\nIs your name", name, end = "?\n\n")
+print(name + ", has lived in:", city2, city3, city1, sep ="\n", end = ".\n")
