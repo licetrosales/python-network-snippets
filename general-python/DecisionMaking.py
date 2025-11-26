@@ -24,3 +24,14 @@ elif age < 100:
     print ("You are an senior citizen")
 else:
     print ("You have entered an invalid age.")
+
+# Nested if statements
+x = int(input("Enter a positive number x: ")) 
+y = int(input("Enter a positive number y: ")) 
+
+if x >= 0 and y >= 0: 
+    if x > y: print ("x is greater than y.") 
+    elif x==y: print ("x and y are equal.") 
+    else: print ("y is greater than x.") 
+else:
+    print ("Either (or both) x and y are not positive integers.")
