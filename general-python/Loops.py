@@ -12,3 +12,13 @@ while x <= xmax:
     x +=1
 
 print("the number of iterations is", iterations)
+
+# Example while - loop 
+my_text =  input("Enter a word to iterate: ")
+iterations = int(input("Enter the number of times to iterate: "))
+x = 1
+
+while x <= iterations:
+    print ( my_text, "x", x)
+    x += 1
+
