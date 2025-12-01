@@ -22,3 +22,16 @@ while x <= iterations:
     print ( my_text, "x", x)
     x += 1
 
+# Nested loops: prime numbers
+x = 2
+while x < 100:
+    y = 2
+    while y * y <= x:
+        if x % y == 0:
+            break
+        y += 1
+    else:  # else clause on the while: runs if no break
+        print(x, "is a prime number.")
+    x += 1
+
+print("Maximum number 100 reached.")
