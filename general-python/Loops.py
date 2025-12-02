@@ -35,3 +35,10 @@ while x < 100:
     x += 1
 
 print("Maximum number 100 reached.")
+
+# Using loop control statements break
+for letter in "Domingo":
+    print ("Current letter:", letter)
+    if letter == "n":
+        break
+print ("found letter:", letter)
