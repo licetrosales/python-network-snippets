@@ -22,7 +22,7 @@ while x <= iterations:
     print ( my_text, "x", x)
     x += 1
 
-# Nested loops: prime numbers
+# Nested loops: determine prime numbers under 100
 x = 2
 while x < 100:
     y = 2
