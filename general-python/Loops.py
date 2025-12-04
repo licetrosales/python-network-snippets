@@ -42,3 +42,10 @@ for letter in "Domingo":
     if letter == "n":
         break
 print ("found letter:", letter)
+
+# Using loop control statements continue
+for letter in "Domingo":
+    
+    if letter == "n":
+        continue
+    print ("Current letter:", letter)
