@@ -49,3 +49,15 @@ for letter in "Domingo":
     if letter == "n":
         continue
     print ("Current letter:", letter)
+
+# Example: range(x)
+for x in range (6):
+     print ("Iteration x =", x)
+
+# Example: range(x,z)
+for x in range (0,6):
+     print ("Iteration x =", x)
+
+# Example: range(x,y,z)
+for x in range (0,6,1):
+     print ("Iteration x =", x)
