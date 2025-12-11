@@ -10,3 +10,7 @@ def EvenOrOdd(x):
 # Calling the function
 EvenOrOdd(8)
 EvenOrOdd(11)
+
+# Calling the faunction with eval
+x = eval(input("Enter a number: "))
+EvenOrOdd(x)
