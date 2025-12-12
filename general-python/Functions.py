@@ -14,3 +14,11 @@ EvenOrOdd(11)
 # Calling the faunction with eval
 x = eval(input("Enter a number: "))
 EvenOrOdd(x)
+
+# Positional argument
+def user_datails(age, location, name):
+    """Example of positional arguments"""
+    print("User's name is", name, "is", age, "years old," "lives in", location)
+
+user_datails(21, "Italy", "Pol")
+user_datails("Spain", "Luisa", 50)
