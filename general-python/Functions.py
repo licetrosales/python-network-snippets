@@ -22,3 +22,13 @@ def user_datails(age, location, name):
 
 user_datails(21, "Italy", "Pol")
 user_datails("Spain", "Luisa", 50)
+
+# Optional or defaulted arguments
+def greeting(name, timeofday = "morning"):
+    """This function generates a user greeting including the user name.
+    Time of the day can be entered by the user."""
+    print("Good " + timeofday, name + "!")
+    return
+
+greeting(name = "Laura", timeofday = "afternoon")
+greeting(name = "Mauro")
