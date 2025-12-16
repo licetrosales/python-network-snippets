@@ -32,3 +32,12 @@ def greeting(name, timeofday = "morning"):
 
 greeting(name = "Laura", timeofday = "afternoon")
 greeting(name = "Mauro")
+
+# Keyword arguments
+def user_details(age, size, location):
+    """This function shows how keyword aruments can be used."""
+    print ("User is", age, "year old,", "size", size, "and lives in", location)
+    return
+
+user_details(location = "Peru", age = 10, size = 32)
+user_details( age = 21, location = "Colonia", size = 203)
