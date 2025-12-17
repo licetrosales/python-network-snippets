@@ -41,3 +41,13 @@ def user_details(age, size, location):
 
 user_details(location = "Peru", age = 10, size = 32)
 user_details( age = 21, location = "Colonia", size = 203)
+
+# Arbitrary number of arguments
+def user_info(name, size, *notes):
+    """Assigning an arbitrary number of arguments to a function by placing an "*" in front of the argument"""
+    print ("User name:", name, "Size:", size, "Notes:", notes)
+
+user_info("Oscar", 32, "Lastname: Alvares")
+user_info("Ana", 20, "email: ana@aol.com","Lastname: Perales")
+user_info("Rob", 12)
+
