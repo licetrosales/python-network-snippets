@@ -51,3 +51,12 @@ user_info("Oscar", 32, "Lastname: Alvares")
 user_info("Ana", 20, "email: ana@aol.com","Lastname: Perales")
 user_info("Rob", 12)
 
+# Arbitrary number of keyword
+def products(prod_name, price, **kwargs):
+    """Assingning an arbitrary number of keyword arguments to a function"""
+    print ("Product name:", prod_name, "Price:", price)
+    print ("Description:", kwargs)
+
+products("Book", "$11", color = "Red", manufacturer = "Hunter Co.")
+products("TV", "$101", color = "Black", maker = "LG", tpye = "IPS")
+products("Toys", "$55", color = "yellow", origin = "China", serie = "X23", year = 2025)
