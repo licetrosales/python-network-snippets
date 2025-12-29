@@ -1,4 +1,4 @@
-# Example of function to determine an even number
+# Function to determine an even number
 def EvenOrOdd(x):
     """This function determines whether a number is even or odd"""
     if (x%2 ==0):
