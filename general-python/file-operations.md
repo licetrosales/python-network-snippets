@@ -32,4 +32,6 @@ file = open(file_name, mode='r', buffering=-1, encoding=None)
 | `a`   | **Append**. Creates file if not exists. Pointer at end.      |
 | `ab`  | **Append binary**.                                           |
 | `a+`  | **Read/append**. Creates file if not exists. Pointer at end. |
-| `ab+` | **Read/append binary**.                  
+| `ab+` | **Read/append binary**.                   |
+
+> ✅ **Best Practice**: Always specify `encoding="utf-8"` for text files to ensure cross-platform compatibility.
