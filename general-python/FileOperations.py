@@ -16,3 +16,12 @@ my_text1.write("Spring\n")
 my_text1.write("Summer\n")
 my_text1.write("Autum\n")
 my_text1.write("Winter\n")
+
+# Open and write a file with "with"
+with open("/Users/licetullmann/Library/CloudStorage/OneDrive-Personal/Coding/Projects py/seasons1.txt", "w") as f:
+    f.write("Seasons of the year:\n")
+    f.write("Spring\n")
+    f.write("Summer\n")
+    f.write("Autum\n")
+    f.write("Winter\n")
+
