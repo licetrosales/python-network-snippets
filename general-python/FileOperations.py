@@ -9,3 +9,5 @@ print(my_text.readline())
 print(my_text.readlines())
 my_text.close()
 
+# Write to a file
+my_text1 = open ("/Users/licetullmann/Library/CloudStorage/OneDrive-Personal/Coding/Projects py/seasons.txt", "w")
