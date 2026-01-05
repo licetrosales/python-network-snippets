@@ -11,3 +11,8 @@ my_text.close()
 
 # Write to a file
 my_text1 = open ("/Users/licetullmann/Library/CloudStorage/OneDrive-Personal/Coding/Projects py/seasons.txt", "w")
+my_text1.write("Seasons of the year:\n")
+my_text1.write("Spring\n")
+my_text1.write("Summer\n")
+my_text1.write("Autum\n")
+my_text1.write("Winter\n")
