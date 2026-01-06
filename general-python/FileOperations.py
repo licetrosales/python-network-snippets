@@ -17,6 +17,9 @@ my_text1.write("Summer\n")
 my_text1.write("Autum\n")
 my_text1.write("Winter\n")
 
+# Use close() method to close the file to free up the memory and processing resources used 
+my_text1.close() 
+
 # Open and write a file with "with"
 with open("/Users/licetullmann/Library/CloudStorage/OneDrive-Personal/Coding/Projects py/seasons1.txt", "w") as f:
     f.write("Seasons of the year:\n")
