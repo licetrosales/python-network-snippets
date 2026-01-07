@@ -7,6 +7,7 @@ print(my_text.readline())
 
 # Use method readlines(): output-> list of lines in the file, each item represents one line  
 print(my_text.readlines())
+# Use close() method to close the file 
 my_text.close()
 
 # Write to a file
